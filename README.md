@@ -18,7 +18,7 @@ Each folder is an independent exercise or project. Original names, source, depen
 
 ## Getting Started
 
-Use JDK 17 or a compatible JDK. In an exercise folder, create `out`, then run `javac -encoding UTF-8 -d out *.java` and `java -cp out ClassName` for its entry point. Lab-07-Account stores source under `src`. For Lab-10-Police, compile the Java files from all five subdirectories together into `out`; run `java -cp out TestPolice`. Do not combine unrelated exercise folders into one Java compilation.
+Use JDK 17 or a compatible JDK. In an exercise folder, create `out`, then run `javac -encoding UTF-8 -d out *.java` and `java -cp out ClassName` for its entry point. For example, in `Lab-06`, run `java -cp out FactorialCalculator`. Other entry points include `AccountTest` (Lab-07), `EmployeeClient` and `TestRectangle` (Lab-08), `TestMovable` and `ShipDemo`. `task1.java` in Lab-04 is a helper rather than an entry point. Lab-07-Account stores source under `src`. For Lab-10-Police, compile the Java files from all five subdirectories together into `out`; run `java -cp out TestPolice`. Do not combine unrelated exercise folders into one Java compilation.
 
 ## Validation
 
